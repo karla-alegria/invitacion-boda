@@ -1,115 +1,74 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="es-419" class="theme light EHoceA">
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Karla & Arturo – Invitación de Boda</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: 'Playfair Display', serif;
-      color: #2c3e50;
-      background-color: #fff;
-    }
-
-    .section {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 60px 20px;
-      text-align: center;
-      background: url('https://i.imgur.com/sjC3aMo.png') no-repeat center top/cover;
-    }
-
-    h1, h2 {
-      font-family: 'Great Vibes', cursive;
-      color: #1f3b5d;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      font-size: 60px;
-    }
-
-    h2 {
-      font-size: 48px;
-    }
-
-    p {
-      font-size: 20px;
-      max-width: 700px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-
-    .btn {
-      display: inline-block;
-      background-color: #3d5a80;
-      color: #fff;
-      padding: 12px 30px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-size: 18px;
-      margin-top: 20px;
-      transition: background 0.3s, transform 0.2s ease-in-out;
-    }
-
-    .btn:hover {
-      background-color: #324a6f;
-      transform: scale(1.05);
-    }
-
-    @media (max-width: 600px) {
-      h1 { font-size: 42px; }
-      h2 { font-size: 36px; }
-      p { font-size: 18px; }
-      .btn { font-size: 16px; padding: 10px 24px; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Boda - Karla & Arturo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+            font-family: 'Georgia', serif;
+        }
+        .page {
+            width: 210mm;
+            height: 297mm;
+            margin: 20px auto;
+            background: white url('A_2D_digital_illustration_features_a_floral_border.png') no-repeat center center;
+            background-size: cover;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            padding: 40mm 20mm;
+            box-sizing: border-box;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #003366;
+            font-size: 36px;
+        }
+        h2 {
+            text-align: center;
+            color: #555;
+            font-size: 22px;
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Portada -->
-  <section class="section">
-    <h1>Karla & Arturo</h1>
-    <p>Un amor sin fin… ∞</p>
-    <p>Te invitamos a ser parte de este día tan especial</p>
-  </section>
+    <!-- Página 1 -->
+    <div class="page">
+        <div class="content">
+            <h1>Karla Alegría & Arturo León</h1>
+            <h2>Invitación de Boda</h2>
+            <p>Próximamente celebraremos nuestra unión.<br>Fecha por confirmar.</p>
+        </div>
+    </div>
 
-  <!-- Historia -->
-  <section class="section">
-    <h2>Nuestra historia</h2>
-    <p>El destino nos unió y ahora queremos compartir este momento especial contigo.</p>
-  </section>
+    <!-- Página 2 -->
+    <div class="page">
+        <div class="content">
+            <h2>Ceremonia</h2>
+            <p>Detalles de la ceremonia aquí.</p>
+        </div>
+    </div>
 
-  <!-- Detalles -->
-  <section class="section">
-    <h2>Detalles del evento</h2>
-    <p>📅 Fecha por confirmar</p>
-    <p>📍 Lugar por confirmar</p>
-  </section>
-
-  <!-- Confirmación -->
-  <section class="section">
-    <h2>Confirma tu asistencia</h2>
-    <p>Tu presencia es importante para nosotros.</p>
-    <a href="https://wa.me/51923810888?text=Confirmo%20mi%20asistencia%20a%20la%20boda" class="btn" target="_blank">
-      Confirmar por WhatsApp
-    </a>
-  </section>
+    <!-- Página 3 -->
+    <div class="page">
+        <div class="content">
+            <h2>Recepción</h2>
+            <p>Detalles de la recepción aquí.</p>
+        </div>
+    </div>
 
 </body>
 </html>
