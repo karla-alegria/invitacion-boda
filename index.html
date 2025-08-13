@@ -1,77 +1,115 @@
 <!DOCTYPE html>
-<html lang="es">
+<html dir="ltr" lang="es-419" class="theme light EHoceA">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karla & Arturo - Invitación de Boda</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karla & Arturo – Invitación de Boda</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Playfair Display', serif;
-            color: white;
-            text-align: center;
-            background: url('https://images.unsplash.com/photo-1529333166437-7750a6dd5a70') no-repeat center center/cover;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        .overlay {
-            background: rgba(0, 0, 20, 0.6);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 20px;
-        }
+    html {
+      scroll-behavior: smooth;
+    }
 
-        .infinity {
-            font-size: 60px;
-            color: silver;
-        }
+    body {
+      font-family: 'Playfair Display', serif;
+      color: #2c3e50;
+      background-color: #fff;
+    }
 
-        h1 {
-            font-family: 'Great Vibes', cursive;
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
+    .section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      text-align: center;
+      background: url('https://i.imgur.com/sjC3aMo.png') no-repeat center top/cover;
+    }
 
-        p {
-            font-size: 18px;
-            margin: 5px 0;
-        }
+    h1, h2 {
+      font-family: 'Great Vibes', cursive;
+      color: #1f3b5d;
+      margin-bottom: 10px;
+    }
 
-        .btn {
-            display: inline-block;
-            background-color: #3a5a73;
-            color: white;
-            padding: 12px 25px;
-            margin-top: 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
+    h1 {
+      font-size: 60px;
+    }
 
-        .btn:hover {
-            background-color: #2c4659;
-        }
+    h2 {
+      font-size: 48px;
+    }
 
-        @media (max-width: 600px) {
-            h1 { font-size: 36px; }
-            .infinity { font-size: 50px; }
-        }
-    </style>
+    p {
+      font-size: 20px;
+      max-width: 700px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #3d5a80;
+      color: #fff;
+      padding: 12px 30px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 20px;
+      transition: background 0.3s, transform 0.2s ease-in-out;
+    }
+
+    .btn:hover {
+      background-color: #324a6f;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 42px; }
+      h2 { font-size: 36px; }
+      p { font-size: 18px; }
+      .btn { font-size: 16px; padding: 10px 24px; }
+    }
+  </style>
 </head>
 <body>
-    <div class="overlay">
-        <div class="infinity">∞</div>
-        <h1>Karla Alegría & Arturo León</h1>
-        <p><em>Un amor sin fin nos une…</em></p>
-        <p>📅 Fecha por confirmar</p>
-        <p>📍 Lugar por confirmar</p>
-        <p>Con todo nuestro cariño, esperamos contar contigo en este día tan especial.</p>
-        <a class="btn" href="https://wa.me/51923810888?text=Confirmo%20mi%20asistencia%20a%20la%20boda" target="_blank">Confirmar asistencia</a>
-    </div>
+
+  <!-- Portada -->
+  <section class="section">
+    <h1>Karla & Arturo</h1>
+    <p>Un amor sin fin… ∞</p>
+    <p>Te invitamos a ser parte de este día tan especial</p>
+  </section>
+
+  <!-- Historia -->
+  <section class="section">
+    <h2>Nuestra historia</h2>
+    <p>El destino nos unió y ahora queremos compartir este momento especial contigo.</p>
+  </section>
+
+  <!-- Detalles -->
+  <section class="section">
+    <h2>Detalles del evento</h2>
+    <p>📅 Fecha por confirmar</p>
+    <p>📍 Lugar por confirmar</p>
+  </section>
+
+  <!-- Confirmación -->
+  <section class="section">
+    <h2>Confirma tu asistencia</h2>
+    <p>Tu presencia es importante para nosotros.</p>
+    <a href="https://wa.me/51900000000?text=Confirmo%20mi%20asistencia%20a%20la%20boda" class="btn" target="_blank">
+      Confirmar por WhatsApp
+    </a>
+  </section>
+
 </body>
 </html>
