@@ -3,64 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitación de boda - Karla & Arturo</title>
+    <title>Karla & Arturo - Invitación de Boda</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+
         body {
-            font-family: 'Georgia', serif;
-            background-color: #fdfcf9;
             margin: 0;
             padding: 0;
+            font-family: 'Playfair Display', serif;
+            color: white;
             text-align: center;
-            color: #2f4255;
+            background: url('https://images.unsplash.com/photo-1529333166437-7750a6dd5a70') no-repeat center center/cover;
         }
-        .container {
-            max-width: 500px;
-            margin: auto;
+
+        .overlay {
+            background: rgba(0, 0, 20, 0.6);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             padding: 20px;
         }
-        img {
-            width: 100%;
-            border-radius: 10px;
+
+        .infinity {
+            font-size: 60px;
+            color: silver;
         }
+
         h1 {
-            font-size: 28px;
-            margin-top: 15px;
-        }
-        h2 {
-            font-size: 22px;
+            font-family: 'Great Vibes', cursive;
+            font-size: 48px;
             margin-bottom: 10px;
         }
+
         p {
-            font-size: 16px;
+            font-size: 18px;
+            margin: 5px 0;
         }
-        .details {
-            margin: 20px 0;
-            font-size: 16px;
-        }
+
         .btn {
             display: inline-block;
-            background-color: #466a85;
+            background-color: #3a5a73;
             color: white;
-            padding: 12px 20px;
-            border-radius: 8px;
+            padding: 12px 25px;
+            margin-top: 20px;
+            border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
-            transition: background-color 0.3s ease;
+            transition: 0.3s;
         }
+
         .btn:hover {
-            background-color: #36546b;
+            background-color: #2c4659;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 36px; }
+            .infinity { font-size: 50px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="A_digital_wedding_invitation_webpage_features_a_mi.png" alt="Invitación de boda">
+    <div class="overlay">
+        <div class="infinity">∞</div>
         <h1>Karla Alegría & Arturo León</h1>
-        <p>Un amor sin fin nos une…</p>
-        <div class="details">
-            <p>📅 Fecha por confirmar</p>
-            <p>📍 Lugar por confirmar</p>
-        </div>
+        <p><em>Un amor sin fin nos une…</em></p>
+        <p>📅 Fecha por confirmar</p>
+        <p>📍 Lugar por confirmar</p>
         <p>Con todo nuestro cariño, esperamos contar contigo en este día tan especial.</p>
         <a class="btn" href="https://wa.me/51900000000?text=Confirmo%20mi%20asistencia%20a%20la%20boda" target="_blank">Confirmar asistencia</a>
     </div>
